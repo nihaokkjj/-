@@ -238,10 +238,7 @@ int data[numValues]; //假定numValues在别处定义
 vector<int> v;
 ...
 v.insert(v.begin(), data, data + numValues); //把整数插入到v的前端
-1
-2
-3
-4
+
 如果显示地调用单元素插入，则应该写成这样：
 
 vector<int>::iterator insertLoc(v.begin());
